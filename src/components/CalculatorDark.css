@@ -1,0 +1,51 @@
+button {
+  width: 1.9em;
+  height: 1.9em;
+  font-size: 2.2em;
+  border: none;
+  border-radius: 2em;
+  margin: 0.3em;
+  background-color: gray;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+.wrapper {
+  max-width: 22em;
+  margin: auto;
+  margin-top: 3em;
+  background-color: black;
+  border-radius: 1em;
+  padding: 1em;
+  transition: background .5s;
+}
+
+#calc {
+  font-size: 2.5em;
+  display: flex;
+  justify-content: right;
+  color: white;
+  margin-right: 0.25em;
+  height: 70px;
+}
+
+
+.red {
+  color: rgb(202, 97, 97);
+}
+
+.green {
+  color: rgb(12, 192, 12);
+}
+
+.white {
+  color: white;
+}
+
+.equalgreen {
+  background-color: rgb(12, 192, 12);
+  color: white;
+}
+
